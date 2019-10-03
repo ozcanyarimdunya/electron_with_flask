@@ -25,3 +25,7 @@ make run-packaged
 ```
 
 **NOTE**:  `electron-builder` hasn't finished yet. Check `electron/main.js/runFlask()`. It is currently manual, use `files` option of `electron-builder`  
+
+## Demo
+
+![Demo](./ss.png)
