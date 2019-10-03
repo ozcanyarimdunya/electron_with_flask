@@ -1,0 +1,75 @@
+body {
+    padding: 1rem;
+    font-family: "Lucida Grande", "Lucida Sans Unicode", sans-serif;
+}
+
+h3 {
+    text-align: center;
+}
+
+form {
+    margin: 10px auto;
+    max-width: 400px;
+    padding: 20px 12px 10px 20px;
+}
+
+form li {
+    padding: 0;
+    display: grid;
+    list-style: none;
+    margin: 10px 0 0 0;
+}
+
+form input[type=text], #result {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #BEBEBE;
+    padding: 7px;
+    margin: 0px;
+    -webkit-transition: all 0.30s ease-in-out;
+    -moz-transition: all 0.30s ease-in-out;
+    -ms-transition: all 0.30s ease-in-out;
+    -o-transition: all 0.30s ease-in-out;
+    outline: none;
+}
+
+form input[type=text]:focus {
+    -moz-box-shadow: 0 0 8px #88D5E9;
+    -webkit-box-shadow: 0 0 8px #88D5E9;
+    box-shadow: 0 0 8px #88D5E9;
+    border: 1px solid #88D5E9;
+}
+
+
+form .field-name {
+    width: 100%;
+}
+
+
+form input[type=submit], form input[type=button] {
+    background: #4B99AD;
+    padding: 8px 15px 8px 15px;
+    border: none;
+    color: #fff;
+}
+
+form input[type=submit]:hover, form input[type=button]:hover {
+    background: #4691A4;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+form .required {
+    color: red;
+}
+
+#result {
+    padding-top: 10px;
+    text-align: center;
+    border: none;
+    height: 50px;
+    font-size: 16px;
+    color: #3588ad;
+}

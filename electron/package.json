@@ -1,0 +1,27 @@
+{
+  "name": "electron-ui",
+  "version": "1.0.0",
+  "description": "Electron with Flask",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "flask",
+    "electron"
+  ],
+  "author": "@ozcanyarimdunya",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^6.0.11",
+    "electron-builder": "^21.2.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.0"
+  },
+  "build": {
+    "appId": "org.semiworld"
+  }
+}
