@@ -28,4 +28,4 @@ make run-packaged
 
 ## Demo
 
-![Demo](./ss.png)
+![Demo](demo.png)
